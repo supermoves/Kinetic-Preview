@@ -18,6 +18,13 @@ Getting Started With Simulator
 
 2. Start with java command: 
        java -jar ./target/kinetic-0.2.0.1-SNAPSHOT-jar-with-dependencies.jar
+
+3. Test drive examples at the following path:
+       <Kinetic-Folder>/src/test/java
+
+4. Browse API JavaDoc:
+        <Kinetic-Folder>/doc/api-javadoc
+        <Kinetic-Folder>/doc/example-javadoc
    
 Admin Command Line Usage
 ==================================
