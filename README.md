@@ -17,20 +17,20 @@ Getting Started With Simulator
 1. Run "mvn clean package"
 
 2. Start with java command: 
-       java -jar ./target/kinetic-0.2.0.1-SNAPSHOT-jar-with-dependencies.jar
+       `java -jar ./target/kinetic-0.2.0.1-SNAPSHOT-jar-with-dependencies.jar`
 
-3. Test drive examples at the following path:
-       <Kinetic-Folder>/src/test/java
+3. Test drive examples at `<Kinetic-Folder>/src/test/java`
 
 4. Browse API JavaDoc:
+
         <Kinetic-Folder>/doc/api-javadoc
         <Kinetic-Folder>/doc/example-javadoc
    
 Admin Command Line Usage
 ==================================
-1. Verify <Kinetic-Folder>/target/kinetic-0.2.0.1-SNAPSHOT-jar-with-dependencies.jar exists
+1. Verify `<Kinetic-Folder>/target/kinetic-0.2.0.1-SNAPSHOT-jar-with-dependencies.jar` exists
 
-2. Define JAVA_HOME environment variable (example: google 'how to set JAVA_HOME on Mac).
+2. Define JAVA_HOME environment variable (example: google how to set JAVA_HOME on Mac).
 
 3. To start Kinetic simulator:
 
