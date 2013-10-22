@@ -51,3 +51,7 @@ Admin Command Line Usage
    Linux & Mac:
             cd <Kinetic-Folder>/bin
             sh kineticAdmin.sh -help
+            
+Erlang client runtime library
+==========================================
+https://github.com/basho-labs/riak_kinetic
