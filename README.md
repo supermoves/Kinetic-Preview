@@ -58,4 +58,4 @@ Erlang client runtime library
 
 Python client runtime library
 =============================================
-       <Kinetic-Folder>/lib/kinetic-0.2dev-py2.7.egg
+       <Kinetic-Folder>/lib/kinetic-0.2.0.1dev-py2.7.egg
