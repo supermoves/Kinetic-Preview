@@ -54,4 +54,8 @@ Admin Command Line Usage
             
 Erlang client runtime library
 ==========================================
-https://github.com/basho-labs/riak_kinetic
+       https://github.com/basho-labs/riak_kinetic
+
+Python client runtime library
+=============================================
+       <Kinetic-Folder>/lib/kinetic-0.2dev-py2.7.egg
