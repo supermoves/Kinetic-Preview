@@ -58,4 +58,50 @@ Erlang client runtime library
 
 Python client runtime library
 =============================================
-       <Kinetic-Folder>/lib/kinetic-0.2.0.1dev-py2.7.egg
+
+The Python client is currently distributed as byte code.  You can install it
+with setuptools or distribute.
+
+    easy_install <Kinetic-Folder>/lib/kinetic-0.2.0.1dev-py2.7.egg
+
+Once you have the Simulator running you can get started with the Python
+Kinetic client.
+
+    >>> from kinetic import Client
+    >>> c = Client('localhost', 8123)
+    >>> c.put('mykey', 'myvalue')
+    <kinetic.client.Versioned instance at 0x1076b9830>
+    >>> c.get('mykey').data
+    'myvalue'
+
+Documentation is built in to the python modules via docstrings, or you can try
+out some basic functionality with `kcmd` the Kinetic python command line tool.
+
+    $ kcmd --help
+    usage: kcmd [-h] [-H HOSTNAME] [-P PORT] [-v]
+                {put,get,delete,list,next,prev,getr,deleter} ...
+
+    positional arguments:
+      {put,get,delete,list,next,prev,getr,deleter}
+        put                 store value at key
+        get                 read value at key
+        delete              remove a key
+        list                list keys from start to end
+        next                read value at next key
+        prev                read value at prev key
+        getr                get keys from start to end
+        deleter             remove keys from start to end
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -H HOSTNAME, --hostname HOSTNAME
+      -P PORT, --port PORT
+      -v, --verbose         output more info (can stack)
+
+
+Preview OpenStack Swift on Kinetic 
+=============================================
+
+[https://github.com/swiftstack/kinetic-swift](https://github.com/swiftstack/kinetic-swift)
+
+
