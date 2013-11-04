@@ -70,8 +70,8 @@ Kinetic client.
     >>> from kinetic import Client
     >>> c = Client('localhost', 8123)
     >>> c.put('mykey', 'myvalue')
-    <kinetic.client.Versioned instance at 0x1076b9830>
-    >>> c.get('mykey').data
+    <kinetic.common.Entry object at 0x273e9d0>
+    >>> c.get('mykey').value
     'myvalue'
 
 Documentation is built in to the python modules via docstrings, or you can try
