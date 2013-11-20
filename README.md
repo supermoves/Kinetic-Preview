@@ -2,7 +2,7 @@ Suggested Development Environments
 ==================================
 * Latest version of Git for your OS: [http://git-scm.com/downloads](http://git-scm.com/downloads)
 
-* JDK 1.6 or later: [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* JDK 1.7 or later: [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 * Eclipse IDE For Java Developers. Version 4.2 (Juno) or later: [http://www.eclipse.org/downloads/](http://www.eclipse.org/downloads/)
 
