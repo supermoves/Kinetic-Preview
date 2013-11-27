@@ -50,7 +50,7 @@ import com.seagate.kinetic.simulator.SimulatorConfiguration;
  * This example starts 10 instances of Kinetic Simulator. Each listens on its
  * own service port starting from 8123 for (TCP) and 8443 for (SSL/TLS).
  * <p>
- * After all the services are started, the example pauses for 3 seconds and
+ * After all the services are started, the example pauses for 30 seconds and
  * shutdown all the services.
  */
 public class MultiKineticSimulators {
@@ -72,18 +72,14 @@ public class MultiKineticSimulators {
 
 		for (int i = 0; i < max; i++) {
 
-			// set simulator service port
+			// instantiate a new instance of configuration object
 			SimulatorConfiguration config = new SimulatorConfiguration();
 
-			// set my service port
+			// set service ports to the configuration
 			int myport = port + i;
 			int mySslPort = sslPort + i;
 			config.setPort(myport);
 			config.setSslPort(mySslPort);
-
-			config.setNioServiceBossThreads(1);
-			config.setNioServiceWorkerThreads(1);
-			// config.setStartSsl(false);
 
 			// set persist store home folder for each instance
 			config.put(SimulatorConfiguration.PERSIST_HOME, "instance_"
