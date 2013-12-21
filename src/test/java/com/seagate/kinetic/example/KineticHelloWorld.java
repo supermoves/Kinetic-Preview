@@ -70,6 +70,10 @@ public class KineticHelloWorld {
 
 		// Simulator configuration and initialization
 		SimulatorConfiguration simulatorConf = new SimulatorConfiguration();
+
+		// Use memory store, un-comment this line to use a persistent store
+		simulatorConf.setUseMemoryStore(true);
+
 		KineticSimulator simulator = new KineticSimulator(simulatorConf);
 
 		// Client configuration and initialization
