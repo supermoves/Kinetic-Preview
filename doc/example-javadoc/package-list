@@ -1,5 +1,7 @@
 com.seagate.kinetic.example
 com.seagate.kinetic.example.admin
+com.seagate.kinetic.example.advanced
 com.seagate.kinetic.example.client
 com.seagate.kinetic.example.client.async
+com.seagate.kinetic.example.monitor
 com.seagate.kinetic.example.simulator
