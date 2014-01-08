@@ -106,6 +106,13 @@
 										<exclude>**/*.*</exclude>
 									</excludes>
 								</filter>
+								<filter>
+									<artifact>org.eclipse.jetty.orbit:javax.servlet</artifact>
+									<excludes>
+										<exclude>META-INF/*.SF</exclude>
+										<exclude>META-INF/*.RSA</exclude>
+									</excludes>
+								</filter>
 							</filters>
 						</configuration>
 					</execution>
