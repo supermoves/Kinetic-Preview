@@ -8,6 +8,10 @@ Suggested Development Environments
 
 * Maven 3.0.3 or later: [http://maven.apache.org/download.cgi](http://maven.apache.org/download.cgi)
 
+* For Windows 7 system, install the system patch package for jni:
+  32 bit: [http://www.microsoft.com/en-us/download/details.aspx?id=5555](http://www.microsoft.com/en-us/download/details.aspx?id=5555)
+  64 bit: [http://www.microsoft.com/en-us/download/details.aspx?id=14632](http://www.microsoft.com/en-us/download/details.aspx?id=14632 )
+
 Download Kinetic Simulator and Java API runtime libraries, Java API Javadoc, and Examples
 ==================================
 1. Clone the code: `git clone https://github.com/Seagate/Kinetic-Preview.git`
