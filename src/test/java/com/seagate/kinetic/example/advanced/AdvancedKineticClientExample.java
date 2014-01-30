@@ -9,12 +9,12 @@
  */
 package com.seagate.kinetic.example.advanced;
 
-import com.seagate.kinetic.client.ClientConfiguration;
-import com.seagate.kinetic.client.Entry;
-import com.seagate.kinetic.client.KineticException;
-import com.seagate.kinetic.client.advanced.AdvancedKineticClient;
-import com.seagate.kinetic.client.advanced.AdvancedKineticClientFactory;
-import com.seagate.kinetic.common.persist.PersistOption;
+import kinetic.client.ClientConfiguration;
+import kinetic.client.Entry;
+import kinetic.client.KineticException;
+import kinetic.client.advanced.AdvancedKineticClient;
+import kinetic.client.advanced.AdvancedKineticClientFactory;
+import kinetic.common.PersistOption;
 
 /**
  * An example that uses PersistOption to perform PUT/DELETE operations.

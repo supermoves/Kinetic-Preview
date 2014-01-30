@@ -40,8 +40,8 @@
  */
 package com.seagate.kinetic.example.simulator;
 
-import com.seagate.kinetic.simulator.KineticSimulator;
-import com.seagate.kinetic.simulator.SimulatorConfiguration;
+import kinetic.simulator.KineticSimulator;
+import kinetic.simulator.SimulatorConfiguration;
 
 /**
  * 

@@ -1,6 +1,6 @@
-com.seagate.kinetic.admin
-com.seagate.kinetic.client
-com.seagate.kinetic.client.advanced
-com.seagate.kinetic.client.p2p
-com.seagate.kinetic.common.persist
-com.seagate.kinetic.simulator
+kinetic.admin
+kinetic.client
+kinetic.client.advanced
+kinetic.client.p2p
+kinetic.common
+kinetic.simulator

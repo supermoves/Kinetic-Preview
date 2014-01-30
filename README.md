@@ -21,7 +21,7 @@ Getting Started With Simulator
 1. Run "mvn clean package"
 
 2. Start with java command: 
-       `java -jar ./target/kinetic-0.2.0.1-SNAPSHOT-jar-with-dependencies.jar`
+       `java -jar ./target/kinetic-0.5.0.1-SNAPSHOT-jar-with-dependencies.jar`
 
 3. Test drive examples at `<Kinetic-Folder>/src/test/java`
 
@@ -32,7 +32,7 @@ Getting Started With Simulator
    
 Admin Command Line Usage
 ==================================
-1. Verify `<Kinetic-Folder>/target/kinetic-0.2.0.1-SNAPSHOT-jar-with-dependencies.jar` exists
+1. Verify `<Kinetic-Folder>/target/kinetic-0.5.0.1-SNAPSHOT-jar-with-dependencies.jar` exists
 
 2. Define JAVA_HOME environment variable (example: google how to set JAVA_HOME on Mac).
 
@@ -66,7 +66,7 @@ Python client runtime library
 The Python client is currently distributed as byte code.  You can install it
 with setuptools or distribute.
 
-    easy_install <Kinetic-Folder>/lib/kinetic-0.2.0.1dev-py2.7.egg
+    easy_install <Kinetic-Folder>/lib/kinetic-0.5.0.1dev-py2.7.egg
 
 Once you have the Simulator running you can get started with the Python
 Kinetic client.

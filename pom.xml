@@ -30,7 +30,7 @@
 	<groupId>com.seagate.kinetic</groupId>
 	<artifactId>Kinetic-Preview</artifactId>
 	<packaging>jar</packaging>
-	<version>0.2.0.1-SNAPSHOT</version>
+	<version>0.5.0.1-SNAPSHOT</version>
 	<name>Kinetic-Preview</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -84,7 +84,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.seagate.kinetic.simulator.KineticSimulator</mainClass>
+									<mainClass>kinetic.simulator.KineticSimulator</mainClass>
 								</transformer>
 							</transformers>
 							<filters>
@@ -138,7 +138,7 @@
 		<dependency>
 			<groupId>com.seagate.kinetic</groupId>
 			<artifactId>Kinetic</artifactId>
-			<version>0.2.0.1</version>
+			<version>0.5.0.1</version>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/Kinetic-${project.version}.jar</systemPath>
 		</dependency>

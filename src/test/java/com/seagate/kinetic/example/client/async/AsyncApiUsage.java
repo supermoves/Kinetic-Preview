@@ -46,11 +46,11 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 
-import com.seagate.kinetic.client.ClientConfiguration;
-import com.seagate.kinetic.client.Entry;
-import com.seagate.kinetic.client.KineticClient;
-import com.seagate.kinetic.client.KineticClientFactory;
-import com.seagate.kinetic.client.KineticException;
+import kinetic.client.ClientConfiguration;
+import kinetic.client.Entry;
+import kinetic.client.KineticClient;
+import kinetic.client.KineticClientFactory;
+import kinetic.client.KineticException;
 
 /**
  * Kinetic Asynchronous API with SSL/TLS usage sample code.

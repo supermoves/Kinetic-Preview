@@ -40,8 +40,8 @@
  */
 package com.seagate.kinetic.example.monitor;
 
-import com.seagate.kinetic.simulator.KineticSimulator;
-import com.seagate.kinetic.simulator.SimulatorConfiguration;
+import kinetic.simulator.KineticSimulator;
+import kinetic.simulator.SimulatorConfiguration;
 
 /**
  * 
@@ -52,6 +52,7 @@ import com.seagate.kinetic.simulator.SimulatorConfiguration;
  * <p>
  */
 public class MultiKineticSimulatorsForHeartbeatMonitor {
+
 
 	public static void main(String[] args) throws InterruptedException {
 
@@ -91,5 +92,6 @@ public class MultiKineticSimulatorsForHeartbeatMonitor {
 					+ "\n");
 		}
 	}
+
 
 }

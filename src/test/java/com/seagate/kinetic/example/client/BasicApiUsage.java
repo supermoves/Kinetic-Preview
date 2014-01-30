@@ -43,12 +43,12 @@ package com.seagate.kinetic.example.client;
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-import com.seagate.kinetic.client.ClientConfiguration;
-import com.seagate.kinetic.client.Entry;
-import com.seagate.kinetic.client.EntryMetadata;
-import com.seagate.kinetic.client.KineticClient;
-import com.seagate.kinetic.client.KineticClientFactory;
-import com.seagate.kinetic.client.KineticException;
+import kinetic.client.ClientConfiguration;
+import kinetic.client.Entry;
+import kinetic.client.EntryMetadata;
+import kinetic.client.KineticClient;
+import kinetic.client.KineticClientFactory;
+import kinetic.client.KineticException;
 
 /**
  * Kinetic synchronous API with SSL/TLS usage sample code.

@@ -42,13 +42,13 @@
 
 package com.seagate.kinetic.example;
 
-import com.seagate.kinetic.client.ClientConfiguration;
-import com.seagate.kinetic.client.Entry;
-import com.seagate.kinetic.client.KineticClient;
-import com.seagate.kinetic.client.KineticClientFactory;
-import com.seagate.kinetic.client.KineticException;
-import com.seagate.kinetic.simulator.KineticSimulator;
-import com.seagate.kinetic.simulator.SimulatorConfiguration;
+import kinetic.client.ClientConfiguration;
+import kinetic.client.Entry;
+import kinetic.client.KineticClient;
+import kinetic.client.KineticClientFactory;
+import kinetic.client.KineticException;
+import kinetic.simulator.KineticSimulator;
+import kinetic.simulator.SimulatorConfiguration;
 
 /**
  * Kinetic Hello World sample code.
@@ -71,7 +71,7 @@ public class KineticHelloWorld {
 		// Simulator configuration and initialization
 		SimulatorConfiguration simulatorConf = new SimulatorConfiguration();
 
-		// Use memory store, un-comment this line to use a persistent store
+		// Use memory store.
 		simulatorConf.setUseMemoryStore(true);
 
 		KineticSimulator simulator = new KineticSimulator(simulatorConf);

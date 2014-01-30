@@ -40,11 +40,11 @@
  */
 package com.seagate.kinetic.example.client.async;
 
-import com.seagate.kinetic.client.AsyncKineticException;
-import com.seagate.kinetic.client.CallbackHandler;
-import com.seagate.kinetic.client.CallbackResult;
-import com.seagate.kinetic.client.Entry;
-import com.seagate.kinetic.client.KineticClient;
+import kinetic.client.AsyncKineticException;
+import kinetic.client.CallbackHandler;
+import kinetic.client.CallbackResult;
+import kinetic.client.Entry;
+import kinetic.client.KineticClient;
 
 /**
  * Asynchronous get callback handler example.

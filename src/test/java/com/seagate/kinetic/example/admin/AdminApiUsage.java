@@ -44,17 +44,17 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.seagate.kinetic.admin.ACL;
-import com.seagate.kinetic.admin.Capacity;
-import com.seagate.kinetic.admin.Domain;
-import com.seagate.kinetic.admin.KineticAdminClient;
-import com.seagate.kinetic.admin.KineticAdminClientFactory;
-import com.seagate.kinetic.admin.KineticLog;
-import com.seagate.kinetic.admin.Role;
-import com.seagate.kinetic.admin.Temperature;
-import com.seagate.kinetic.admin.Utilization;
-import com.seagate.kinetic.client.ClientConfiguration;
-import com.seagate.kinetic.client.KineticException;
+import kinetic.admin.ACL;
+import kinetic.admin.Capacity;
+import kinetic.admin.Domain;
+import kinetic.admin.KineticAdminClient;
+import kinetic.admin.KineticAdminClientFactory;
+import kinetic.admin.KineticLog;
+import kinetic.admin.Role;
+import kinetic.admin.Temperature;
+import kinetic.admin.Utilization;
+import kinetic.client.ClientConfiguration;
+import kinetic.client.KineticException;
 
 /**
  * Kinetic admin API usage sample code.
